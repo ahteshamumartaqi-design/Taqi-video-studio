@@ -53,7 +53,7 @@ fun HomeScreen(
         )
         Spacer(Modifier.height(12.dp))
         HomeActionCard(
-            icon = Icons.Default.AutoAwesome,
+            icon = Icons.Default.Star,
             title = "Text to video (AI)",
             subtitle = "Needs an external API key — see README",
             onClick = onTextToVideo
